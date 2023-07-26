@@ -5,7 +5,7 @@ public class Exercicio07_easy {
     public static double calculoInss = 0.0;
 
 
-    public static String calculoDoInss (double salario){
+    public double calculoDoInss (double salario){
 
         
         if(salario <= 1045.00){
@@ -21,9 +21,9 @@ public class Exercicio07_easy {
             calculoInss = (salario * 14) / 100;
         }
         if(salario > 6101.06){
-            calculoInss = (salario * 14) / 100;
+            calculoInss = 854.15;
         }
-        return "O INSS a ser pago é: " + calculoInss;
+        return calculoInss;
     }
 
 }
