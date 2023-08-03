@@ -1,8 +1,6 @@
 package qaacademy_test_exercicio.Facil;
 
 
-import javax.swing.*;
-
 public class Exercicio05_easy {
 
     public int soma(int n1, int n2, int n3) {

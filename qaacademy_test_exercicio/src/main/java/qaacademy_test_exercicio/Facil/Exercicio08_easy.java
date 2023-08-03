@@ -1,13 +1,11 @@
 package qaacademy_test_exercicio.Facil;
 
 
-import javax.swing.*;
-
 public class Exercicio08_easy {
 
     public double calculoIR (double salarioBruto){
         
-        double salarioLiquido = 0.0, IR = 0;
+        double IR = 0;
         
         if(salarioBruto <= 1903.98){
             IR = 0.0;
