@@ -1,5 +1,4 @@
 package medium;
-import static org.junit.Assert.assertArrayEquals;
 
 import org.junit.Assert;
 import org.junit.BeforeClass;
