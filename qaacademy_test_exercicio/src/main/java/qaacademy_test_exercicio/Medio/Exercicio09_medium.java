@@ -1,10 +1,10 @@
 package qaacademy_test_exercicio.Medio;
 
 public class Exercicio09_medium {
-    public int [] calculoFibonacci(int elemento) {
+    public long [] calculoFibonacci(int elemento) {
         
        
-        int vet [] = new int [elemento];
+        long vet [] = new long [elemento];
         int cont = 2;
 
         vet[0] = 0;
@@ -18,7 +18,7 @@ public class Exercicio09_medium {
         return vet;
     }
 
-    public void imprimeVetor(int[] vetor){
+    public void imprimeVetor(long[] vetor){
         int i = 0;
         while (i < vetor.length){
             System.out.println(vetor[i]);

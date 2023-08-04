@@ -7,7 +7,7 @@ public class Execucao {
 
         Exercicio09_medium exercicio09_medium = new Exercicio09_medium();
         int elemento = Integer.parseInt(JOptionPane.showInputDialog("Digite o elemento que deseja calcular"));
-        int [] vetorFibonacci = exercicio09_medium.calculoFibonacci(elemento);
+        long[] vetorFibonacci = exercicio09_medium.calculoFibonacci(elemento);
         exercicio09_medium.imprimeVetor(vetorFibonacci);
     
     }
